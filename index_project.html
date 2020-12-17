@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: Arial;
+      padding:10px;
+      background: #f1f1f1;
+    }
+
+    .header{
+      padding:30px;
+      text-align: center;
+      background: white;
+      color: black;
+    }
+
+    .header li{
+      font-size:50px;
+    }
+
+    .topnav {
+        overflow: hidden; /*visible, scroll, auto*/
+      }
+
+      /* Style the topnav links */
+
+      .topnav a {
+        float: right;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+     /* a태그는 링크 하이퍼링크 밑줉x*/
+    .topnav a:hover{
+      background-color: #dddddd;
+      color: black;
+      image-resolution: none;
+    }
+
+    .leftcolumn{
+      float:left;
+      width:50%;
+    }
+
+    .rightcolumn{
+      float:left;
+      width:50%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+
+    .fakeimg{
+      width: 100%
+      padding:20px;
+    }
+
+    .card{
+      background-color: white;
+      padding:20px;
+      margin-top:20px;
+    }
+
+    .row:after{
+      content:"";
+      display: table;
+      clear: both;
+    }
+
+    .footer{
+      padding:20px;
+      text-align: center;
+      background: #dddddd;
+      margin-top: 12px;
+      color: #aaa;
+    }
+
+    @media screen and (max-width: 800px){
+      .leftcolumn, .rightcolumn{
+        width:100%;
+        padding:0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .topnav a{
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .menu_li{
+      color: black;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    a:active {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    h5,h6{
+      color: #7e8084;
+    }
+
+
+    </style>
+
+  <body>
+
+    <div class="topnav">
+     <a href="index.html" style='float: left'><img src='./img/0_logo_b1.png' height='65px'></a>
+     <a href="index_plane.html">PLANE</a>
+     <a href="index_other.html">OTHER</a>
+     <a href="#"><span class='menu_li'>PROJECT</span></a>
+     <a href="index_me.html">ME</a>
+
+    </div>
+
+    <div class="row">
+
+      <div class="leftcolumn">
+
+        <div class="card">
+          <h2>십란한밤</h2>
+          <h5>컨텐츠디자인, 백윤화 교수님, 2020.12.15</h5>
+          <div class="fakeimg" style='height:200px;'>
+            <video height='260' autoplay controls loop>
+              <source src='0_10ran.mp4' type= 'video/mp4'>
+              <source src='0_10ran.webm' type= 'video/webm'>
+              <source src='0_10ran.ogg' type= 'video/ogg'>
+            </video>
+          </div>
+          <br>
+          <br>
+          <br>
+          <p>자신의it tem을 골라 디지털 브로셔로 만들어 설명 하는것</p>
+          <p>처음으로 해본 스타일의 시안이라 어색했지만 가장 마음에드는 과제중 하나이다. </p>
+        </div>
+
+        <div class="card">
+          <h2>겐조 가을슈즈광고</h2>
+          <h5>영상디자인, 장윤제 교수님, 2020.10.26</h5>
+          <div class="fakeimg" style='height:200px;'>
+            <video height='260' autoplay controls loop>
+              <source src='kenzo.mp4' type= 'video/mp4'>
+              <source src='kenzo.webm' type= 'video/webm'>
+              <source src='kenzo.ogg' type= 'video/ogg'>
+           </video>
+          </div>
+          <br>
+          <br>
+          <br>
+          <p>음악과 이펙트를 활용한 광고</p>
+          <p>심혈을 기울여 만든 광고, 이를 통해 무언가를 홍보할때는
+            얼마나 많은양의 공부를 해야하고, 어디까지의 스토리텔링이 필요한지 깨달았다.
+         </p>
+        </div>
+
+        <div class="card">
+          <h2>뗄래야 뗄 수 없는 사이</h2>
+          <h5>기초디자인, 이호경 교수님, 2020.07.05</h5>
+          <div class="fakeimg" style='height:200px;'>
+            <video height='260' autoplay controls loop>
+              <source src='design2.mp4' type= 'video/mp4'>
+              <source src='design2.webm' type= 'video/webm'>
+              <source src='design2.ogg' type= 'video/ogg'>
+            </video>
+          </div>
+          <br>
+          <br>
+          <br>
+          <p>나를 표현할 수 있는 물건들과 자기소개 웹페이지 디자인</p>
+          <p>중간고사부터 '자기소개' 주제의 과제가 많았다. 그중 가장 마음에 드는 작업물.
+             직접 찍고 편집한 프로필로 나와 뗄래야 뗄 수 없는것들을 소개한 웹페이지를 디자인한 작업물이다.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <h2>에니어그램</h2>
+          <h5>기초디자인, 이호경 교수님, 2020.05.16</h5>
+          <div class="fakeimg" style='height:200px;'>
+            <video height='260' autoplay controls loop>
+              <source src='design1.mp4' type= 'video/mp4'>
+              <source src='design1.webm' type= 'video/webm'>
+              <source src='design1.ogg' type= 'video/ogg'>
+            </video>
+          </div>
+          <br>
+          <br>
+          <br>
+          <p>에니어그램 테스트 결과와  연관지어 자신을 소개하는 웹페이지 디자인</p>
+          <p>mbti처럼 에니어그램이라는 성격 유형검사를 받고 그결과에 따라 자신을 그래픽으로만 표현하는 웹페이지를 디자인 하였다.
+
+          </p>
+        </div>
+
+
+
+      </div>
+
+    <div class="rightcolumn">
+
+      <div class="card">
+        <h2>Autumn</h2>
+        <div class="fakeimg" style='height:200px;'>
+          <video height='260' autoplay controls loop>
+            <source src='fall.mp4' type= 'video/mp4'>
+            <source src='fall.webm' type= 'video/webm'>
+            <source src='fall.ogg' type= 'video/ogg'>
+         </video>
+        </div>
+        <br>
+        <br>
+        <br>
+        <p>영상디자인 과제중 만든 영상, 가을이 내려앉은 경복궁이 너무 예뻐서 만들었다.</p>
+      </div>
+
+      <div class="card">
+
+         <h2>포트폴리오</h2>
+         <h5>컨텐츠 프로그래밍, 이수경교수, 2020.12.17</h5>
+         <a href="index.html"><img src= './img/0_logo_b.png' height='100px'></a>
+         <h6>클릭하세요</h6>
+        <p>생애 처음만든 포트 폴리오</p>
+     </div>
+
+
+      <div class="card">
+        <h2>어라운드어스 웹페이지 리뉴얼</h2>
+         <h5>컨텐츠 프로그래밍, 이수경 교수님, 2020.10.30</h5>
+
+         <video width='450' autoplay controls loop>
+           <source src='0_pm_1.mp4' type= 'video/mp4'>
+           <source src='0_pm_1.webm' type= 'video/webm'>
+           <source src='0_pm_1.ogg' type= 'video/ogg'>
+        </video>
+        <p>엔터테인먼트의 특성을 반영해 리뉴얼한 웹페이지</p>
+    </div>
+
+    
+      <div class="card">
+        <h2>내 마음속 과제 순위</h2>
+         <ul>
+           <li>1. 포트폴리오</li>
+           <br>
+           <li>2. 십란한밤</li>
+           <br>
+           <li>3. 뗄래야 뗄 수 없는 사이</li>
+           <br>
+           <li>4. 에니어그램</li>
+           <br>
+           <li>5. 겐조</li>
+           <br>
+           <li>6. highlight.html</li>
+         </ul>
+      </div>
+
+     </div>
+  </div>
+
+
+  <div class="footer">
+    <h4>copyright&copy;Lee jung soo All right reserved</h4>
+  </div>
+
+
+  </body>
+</html>

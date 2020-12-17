@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: Arial;
+      padding:10px;
+      background: #f1f1f1;
+    }
+
+    .header{
+      padding:30px;
+      text-align: center;
+      background: white;
+      color: black;
+    }
+
+    .header li{
+      font-size:50px;
+    }
+
+    .topnav {
+        overflow: hidden; /*visible, scroll, auto*/
+      }
+
+      /* Style the topnav links */
+
+      .topnav a {
+        float: right;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+     /* a태그는 링크 하이퍼링크 밑줉x*/
+    .topnav a:hover{
+      background-color: #dddddd;
+      color: black;
+      image-resolution: none;
+    }
+    .leftcolumn{
+      float:left;
+      width:50%;
+    }
+
+    .rightcolumn{
+      float:left;
+      width:50%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+
+    .fakeimg{
+      width: 100%
+      padding:20px;
+    }
+
+    .card{
+      background-color: white;
+      padding:20px;
+      margin-top:20px;
+    }
+
+    .row:after{
+      content:"";
+      display: table;
+      clear: both;
+    }
+
+    .footer{
+      padding:20px;
+      text-align: center;
+      background: #dddddd;
+      margin-top: 12px;
+      color: #aaa;
+    }
+
+    @media screen and (max-width: 800px){
+      .leftcolumn, .rightcolumn{
+        width:100%;
+        padding:0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .topnav a{
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .menu_li{
+      color: black;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    a:active {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    h5{
+      color: #7e8084;
+    }
+
+    </style>
+
+  <body>
+
+    <div class="topnav">
+     <a href="index.html" style='float: left'><img src='./img/0_logo_b1.png' height='65px'></a>
+     <a href="index_plane.html">PLANE</a>
+     <a href="#"><span class='menu_li'>OTHER</span></a>
+     <a href="index_project.html">PROJECT</a>
+     <a href="index_me.html">ME</a>
+    </div>
+
+    <div class="row">
+
+      <div class="leftcolumn">
+
+        <div class="card">
+          <h2>2020서울코로나전시회</h2>
+          <h5>인스타그램,2020.12.02~</h5>
+          <div class="fakeimg" style='width:485px;'>
+            <img src= './img/0_other_ex.jpg' width='460px'>
+          </div>
+          <p>공연(空延)_이정수</p>
+          <p>비어있는 공연장, 전시관을 빌 공(空)에,  연기되는 전시를 늘일 연(延)으로
+            코로나로 인해 취소되고 연기되는 전시, 공연을  표현하였다.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>카페 메뉴디자인</h2>
+          <h5>송파구 거여동 밀파니, 2020.10.31~</h5>
+          <div class="fakeimg" style='width:485px;'>
+            <img src= './img/0_other_millpany.jpg' width='460px'>
+          </div>
+          <p>알바를 하던 카페에서 ppt로 디자인한 메뉴판이 어지럽고 비효율적이라 메뉴판을 바꿔 디자인했다.
+             실제로 그 카페에서 사용해 뿌듯했다.</p>
+
+        </div>
+
+      </div>
+
+
+
+    <div class="rightcolumn">
+
+      <div class="card">
+        <h2>작업물1</h2>
+        <h5>인스타그램, 2020.12.05</h5>
+        <div class="fakeimg" style='width:485px;'>
+          <img src= './img/0_other_corona.jpg' width='460px'>
+        </div>
+        <p>HOW TO WEAR_이정수</p>
+        <p>이 시국에 사람들에게 마스크를 제대로 쓰는법을 알려주기 위해서 마스크 쓰는법을 표현하였다.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>잡코리아 공모전</h2>
+        <h5>2020.11.02~11.15</h5>
+        <div class="fakeimg" style='width:485px;'>
+          <img src= './img/0_job_k.png' width='460px'>
+        </div>
+        <p>끝내주는 사람들_잡코리아.영상 스토리보드</p>
+        <p>공모전에 출전해서 비록 입상하지는 못했다. 생각했던 아이디어가 입상했고 이로써 때로는 뻔한 아이디어가 답일 수 있다는 생각을 했다.
+           </p>
+
+      </div>
+
+     </div>
+  </div>
+
+
+  <div class="footer">
+    <h4>copyright&copy;Lee jungsoo All right reserved</h4>
+  </div>
+
+
+
+  </body>
+</html>

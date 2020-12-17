@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: Arial;
+      padding:10px;
+      background: #f1f1f1;
+    }
+
+    .header{
+      padding:30px;
+      text-align: center;
+      background: white;
+      color: black;
+    }
+
+    .header li{
+      font-size:50px;
+    }
+
+    .topnav {
+        overflow: hidden; /*visible, scroll, auto*/
+      }
+
+      /* Style the topnav links */
+
+      .topnav a {
+        float: right;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+     /* a태그는 링크 하이퍼링크 밑줉x*/
+    .topnav a:hover{
+      background-color: #dddddd;
+      color: black;
+      image-resolution: none;
+    }
+
+    .leftcolumn{
+      float:left;
+      width:65%;
+    }
+
+    .rightcolumn{
+      float:left;
+      width:35%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+
+    .fakeimg{
+
+      width: 100%
+      padding:20px;
+    }
+
+    .card{
+      background-color: white;
+      padding:20px;
+      margin-top:20px;
+        text-align: center;
+    }
+
+    .card_0{
+      padding:20px;
+      margin-top:20px;
+      text-align: center;
+    }
+
+    .row:after{
+      content:"";
+      display: table;
+      clear: both;
+    }
+
+    .footer{
+      padding:20px;
+      text-align: center;
+      background: #dddddd;
+      margin-top: 12px;
+      color: #aaa;
+    }
+
+    @media screen and (max-width: 800px){
+      .leftcolumn, .rightcolumn{
+        width:100%;
+        padding:0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .topnav a{
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .menu_li{
+      color: black;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    a:active {
+      text-decoration: none;
+      color: #7e8084;
+    }
+
+    h5, h4{
+      color: #7e8084;
+    }
+
+    </style>
+
+  <body>
+
+    <div class="topnav">
+     <a href="index.html" style='float: left'><img src='./img/0_logo_b1.png' height='65px'></a>
+     <a href="index_plane.html">PLANE</a>
+     <a href="index_other.html">OTHER</a>
+     <a href="index_project.html">PROJECT</a>
+     <a href="#"><span class='menu_li'>ME</span></a>
+    </div>
+
+    <div class="row">
+
+      <div class="leftcolumn">
+
+        <div class="card_0">
+          <h1>이정수_Lee Jung Soo</h1>
+          <h4>서울시 송파구, 2000. 07. 11 (21)</h4>
+            <img src= './img/0_profile.png' width='245px'>
+          <br>
+          <br>
+              소속:계원예술대학교
+          <br> 안녕하세요 하고싶은게 많은 그래픽디자이너 이정수 입니다.
+          <br>
+            <img src= './img/0_skill.png' width='400px'>
+          <br>
+          <br>
+        </div>
+
+        <div class="card">
+        <h1>contact</h1>
+          <h3>Instagram</h3>
+            <img src= './img/0_insta.png' width='45px'>
+            <h5>@woongjinco_way
+            <br>@wjdtndml_d</h5>
+            <br>
+          <h3>mail<h3>
+            <img src= './img/0_mail.png' width='45px'>
+            <h5>sallyleejs@icloud.com</h5>
+            <br>
+        </div>
+
+      </div>
+
+    <div class="rightcolumn">
+
+      <div class="card">
+        <h2>전시회</h2>
+        <div class="fakeimg"><p>2020서울코로나</p><img src= './img/0_other_ex.jpg' height='195px'></div>
+      </div>
+
+      <div class="card">
+        <h2>입시</h2>
+        <div class="fakeimg"><h4>재수</h4><img src= './img/0_me_5.jpg' width='200px'></div>
+        <div class="fakeimg"><h4>고3 후반</h4><img src= './img/0_me_4.jpg' width='200px'></div>
+        <div class="fakeimg"><h4>고2 초반</h4><img src= './img/0_me_3.jpg' width='200px'></div>
+      </div>
+
+
+     </div>
+  </div>
+
+
+  <div class="footer">
+    <h4>copyright&copy;Lee jung soo All right reserved</h4>
+  </div>
+
+
+
+  </body>
+</html>
